@@ -1,0 +1,8 @@
+day,demand_level,price_adjustment_pct,typical_attendance_pct
+Monday,Low,-15,88
+Tuesday,Low,-15,87
+Wednesday,Medium,-5,92
+Thursday,Medium,5,94
+Friday,High,25,98
+Saturday,Very High,40,100
+Sunday,High,20,97

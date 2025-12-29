@@ -1,0 +1,8 @@
+factor,data_source,impact_weight,notes
+Weather,Open-Meteo API,0.15,Primarily affects walk-up sales and no-show rate
+Day of Week,Schedule,0.2,Weekends 15-20% higher than weekdays
+Opponent Quality,Tier Classification,0.25,Tier 1 opponents can double prices
+Team Performance,Current Record,0.15,Winning streaks boost walk-up by 10-15%
+Competing Events,Event Calendar,0.1,Knicks same night = -5% attendance
+Promotional Activity,Marketing Calendar,0.1,Giveaways can boost 10-15%
+Holiday/Special Date,Calendar,0.05,"Christmas, NYE, MLK Day = premium"

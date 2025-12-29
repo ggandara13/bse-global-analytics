@@ -1,0 +1,8 @@
+month,demand_level,price_adjustment_pct,notes
+October,High,30,Season opener excitement
+November,Medium,0,Regular season begins
+December,High,25,"Holiday games, Christmas"
+January,Low,-10,Post-holiday lull
+February,Medium,10,All-Star break effect
+March,Medium-High,15,Playoff push begins
+April,High,30,"Season finale, playoff race"

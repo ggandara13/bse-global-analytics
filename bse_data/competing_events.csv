@@ -1,0 +1,9 @@
+event_type,venue,frequency,overlap_level,audience_overlap,impact
+Knicks Home Game,MSG,41/year,High,60%,"Major - same sport, same city"
+Rangers Home Game,MSG,41/year,Medium,30%,Moderate - winter entertainment
+Islanders Home Game,UBS Arena,41/year,Low,15%,Low - different borough
+Jets/Giants Home Game,MetLife,16-20/year,Low,40%,Low - different season (mostly)
+Yankees/Mets Home Game,Yankee/Citi,162/year,Very Low,25%,Minimal - summer sport
+Major MSG Concert,MSG,50/year,Medium,35%,Moderate - event-by-event
+Broadway Shows,Theater District,Daily,Low,20%,Low - different experience
+Liberty Home Game,Barclays,20/year,N/A,80%,Positive - builds venue habit

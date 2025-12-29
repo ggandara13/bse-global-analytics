@@ -1,0 +1,9 @@
+weather_category,attendance_impact_pct,no_show_rate_pct,concession_impact,notes
+Pleasant,0,5,Normal,Baseline conditions
+Cold,-3,8,+10% hot drinks,"Minor impact, hot beverage sales up"
+Very Cold,-8,12,+20% hot drinks,Noticeable drop in walk-up sales
+Light Rain,-5,10,Normal,People still come but arrive later
+Heavy Rain,-15,18,-5% overall,Significant walk-up drop
+Light Snow,-10,15,+15% hot drinks,Transit delays affect arrival
+Heavy Snow,-25,30,-10% overall,"Major impact, consider promotions"
+Hot,0,5,+25% cold drinks,No attendance impact (indoor venue)

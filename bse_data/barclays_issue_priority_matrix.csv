@@ -1,0 +1,11 @@
+issue,frequency,severity,revenue_impact,fix_difficulty,priority_score,recommended_action
+Low atmosphere (Nets games),High,High,Very High,Hard,10,"In-game entertainment upgrades, fan sections, promotions"
+Marijuana/smoking enforcement,High,High,Medium,Medium,9,"Dedicated smoking enforcement team, clear signage, zero-tolerance policy"
+Security response time,High,High,Medium,Easy,9,"More visible security presence, faster response protocols"
+Long entry/security lines,High,Medium,Medium,Easy,8,"More entry points, mobile-only lanes, earlier gate opening"
+High concession prices,Very High,Medium,High,Hard,7,"Value bundles, happy hour pricing, loyalty discounts"
+Premium experience gaps,Medium,Medium,High,Medium,7,"Dedicated premium lanes, exclusive amenities, better service"
+Billing/overcharge errors,Low,High,Low,Easy,6,"Staff training, POS system upgrades, clear dispute process"
+Food quality inconsistency,Low,Low,Medium,Medium,4,"Quality control standards, vendor accountability"
+Cramped concourse layout,Medium,Low,Low,Very Hard,3,"Directional flow improvements, peak time management"
+Parking costs,Medium,Low,Low,Hard,3,"Partner with nearby lots for discounts, promote transit"

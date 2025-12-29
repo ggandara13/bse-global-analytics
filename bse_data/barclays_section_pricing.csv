@@ -1,0 +1,8 @@
+section_type,section_range,min_price,max_price,avg_price,seats
+Courtside,Floor seats,800,5000,2500,200
+Lower Bowl Premium,1-10 (Center),200,600,350,2000
+Lower Bowl Corner,11-24 (Corner),100,350,180,3000
+Club Level,101-124,150,400,225,2500
+Upper Bowl Center,201-210,40,150,85,3500
+Upper Bowl Corner,211-232,20,80,45,4500
+Upper Bowl Back,218-224 (Behind basket),15,60,35,2000

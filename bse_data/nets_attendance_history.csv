@@ -1,0 +1,11 @@
+season,total_attendance,home_games,avg_attendance,arena_capacity,capacity_pct,league_rank,team_wins,team_losses,win_pct,made_playoffs,star_players,notes
+2024-25,713304,41,17397,17732,98.1,21,26,56,0.317,False,"Cam Thomas, D. Russell","Tanking season, post-superteam era"
+2023-24,712078,41,17368,17732,97.9,22,32,50,0.39,False,"Mikal Bridges, Cam Thomas","Transition year, Bridges traded mid-season"
+2022-23,631431,41,15400,17732,86.8,26,45,37,0.549,True,"Kevin Durant (traded), Kyrie Irving (traded)","KD/Kyrie departures, mid-season rebuild"
+2021-22,539112,41,13149,17732,74.1,28,44,38,0.537,True,"Kevin Durant, Kyrie Irving, Ben Simmons","Injuries, COVID protocols, Simmons drama"
+2020-21,0,0,0,17732,0.0,0,48,24,0.667,True,"Kevin Durant, Kyrie Irving, James Harden","COVID bubble, no fans allowed"
+2019-20,547393,35,15640,17732,88.2,23,35,37,0.486,False,"Kyrie Irving, Caris LeVert",Season cut short by COVID
+2018-19,660219,41,16103,17732,90.8,23,42,40,0.512,True,"D'Angelo Russell, Spencer Dinwiddie","Surprise playoff team, All-Star Russell"
+2017-18,559463,41,13645,17732,76.9,27,28,54,0.341,False,"Spencer Dinwiddie, Caris LeVert","Rebuilding, low expectations"
+2016-17,520428,41,12693,17732,71.6,28,20,62,0.244,False,"Brook Lopez, Jeremy Lin",Worst record in franchise history
+2015-16,532341,41,12984,17732,73.2,27,21,61,0.256,False,"Brook Lopez, Thaddeus Young",Post-relocation struggles

@@ -1,0 +1,30 @@
+team,tier,draw_factor,price_premium_pct
+Los Angeles Lakers,1,"LeBron James, national TV",150
+Golden State Warriors,1,"Curry, dynasty nostalgia",130
+Boston Celtics,1,"Champions, rivalry",100
+New York Knicks,1,"City rivalry, away fans",120
+Philadelphia 76ers,2,Regional rival,60
+Miami Heat,2,"Butler, playoff history",50
+Denver Nuggets,2,"Champions, Jokic MVP",55
+Milwaukee Bucks,2,Giannis superstar,60
+Dallas Mavericks,2,Luka Doncic,50
+Phoenix Suns,3,"Booker, Durant return",40
+Cleveland Cavaliers,3,Top East team,30
+Minnesota Timberwolves,3,Edwards rising star,25
+Los Angeles Clippers,3,Kawhi (when healthy),20
+Sacramento Kings,3,"Fox, young exciting team",15
+Indiana Pacers,4,Haliburton,5
+Atlanta Hawks,4,Trae Young,5
+Orlando Magic,4,Rising team,0
+New Orleans Pelicans,4,Zion (when healthy),5
+Memphis Grizzlies,4,Ja Morant,10
+Oklahoma City Thunder,4,"SGA, young contender",15
+Houston Rockets,4,Rebuilding,0
+Toronto Raptors,5,Rebuilding,-10
+Chicago Bulls,5,Declining,0
+Detroit Pistons,5,Rebuilding,-15
+Washington Wizards,5,Rebuilding,-20
+Charlotte Hornets,5,Small market rebuild,-20
+San Antonio Spurs,5,Wemby hype fading,10
+Portland Trail Blazers,5,Rebuilding,-15
+Utah Jazz,5,Tanking,-20

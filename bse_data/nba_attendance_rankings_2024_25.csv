@@ -1,0 +1,31 @@
+rank,team,avg_attendance,capacity,pct_capacity,home_wins
+1,Chicago Bulls,20823,20917,99.6,21
+2,New York Knicks,19812,19812,100.0,29
+3,Dallas Mavericks,19892,19200,103.6,30
+4,Philadelphia 76ers,20232,20478,98.8,14
+5,Toronto Raptors,19800,19800,100.0,16
+6,Boston Celtics,19156,19156,100.0,35
+7,Los Angeles Lakers,18997,18997,100.0,27
+8,Golden State Warriors,18064,18064,100.0,24
+9,Houston Rockets,18055,18055,100.0,23
+10,San Antonio Spurs,18354,18581,98.8,21
+11,Denver Nuggets,19520,19520,100.0,31
+12,Portland Trail Blazers,18211,19393,93.9,11
+13,Miami Heat,19600,19600,100.0,21
+14,Cleveland Cavaliers,20211,20562,98.3,35
+15,Sacramento Kings,17608,17608,100.0,27
+16,Milwaukee Bucks,17341,17341,100.0,27
+17,Minnesota Timberwolves,17136,17136,100.0,28
+18,Phoenix Suns,17071,17071,100.0,26
+19,Indiana Pacers,17923,17923,100.0,28
+20,Oklahoma City Thunder,18203,18203,100.0,33
+21,Brooklyn Nets,17397,17732,98.1,14
+22,Utah Jazz,18206,18306,99.5,17
+23,Washington Wizards,16932,20356,83.2,10
+24,Los Angeles Clippers,18997,18997,100.0,24
+25,Detroit Pistons,17027,20332,83.7,23
+26,Atlanta Hawks,16724,18118,92.3,22
+27,New Orleans Pelicans,15921,16867,94.4,25
+28,Orlando Magic,17118,18846,90.8,24
+29,Memphis Grizzlies,16994,17794,95.5,24
+30,Charlotte Hornets,15126,19077,79.3,9

@@ -1,0 +1,5 @@
+venue,location,capacity,nba_team,avg_nba_attendance,avg_ticket_price,google_rating,subway_accessible,parking_cost
+Madison Square Garden,"Manhattan, NY",19812,Knicks,19812.0,200,4.6,True,60
+UBS Arena,"Elmont, NY",17113,,,130,4.4,True,40
+Prudential Center,"Newark, NJ",16514,,,110,4.5,True,30
+Barclays Center,"Brooklyn, NY",17732,Nets,17397.0,125,4.6,True,45
