@@ -288,20 +288,12 @@ st.sidebar.markdown("### 📊 Data Summary")
 st.sidebar.markdown(f"**Files Loaded:** {sum(1 for v in data.values() if v is not None)}")
 st.sidebar.markdown(f"**Total Rows:** {sum(len(v) for v in data.values() if v is not None):,}")
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("### 👤 Author")
-st.sidebar.markdown("**Gerardo Gandara**")
-st.sidebar.markdown("[📧 Email](mailto:gerardo.gandara@gmail.com)")
-st.sidebar.markdown("[💼 LinkedIn](https://www.linkedin.com/in/gerardo-gandara/)")
-st.sidebar.markdown("[🐙 GitHub](https://github.com/ggandara13)")
-
 # ============================================
 # PAGE 1: EXECUTIVE SUMMARY
 # ============================================
 if page == "🏠 Executive Summary":
     st.markdown("<h1 class='main-header'>🏀 BSE Global Analytics</h1>", unsafe_allow_html=True)
     st.markdown("### Data Science Prototype | Senior Data Scientist Interview")
-    st.markdown("*Demonstrating ML, Analytics, and Business Insights for BSE Global*")
     
     st.markdown("---")
     
@@ -325,72 +317,36 @@ if page == "🏠 Executive Summary":
         st.markdown("### 🔬 Data Science Components")
         st.markdown("""
         <div class='model-box'>
-        <strong>1. Price Prediction Model (Regression)</strong><br>
-        Random Forest & Gradient Boosting predicting ticket prices from opponent tier, day of week, and weekend flag.
+        <strong>1. Price Prediction Model</strong><br>
+        Random Forest regression predicting ticket prices from opponent tier, day of week, and weekend flag.
         <br><br>
-        <strong>2. Attendance Classification (Multi-class)</strong><br>
-        Classifier predicting attendance levels (Low/Medium/High/Sellout) with confusion matrix analysis.
+        <strong>2. Attendance Classification</strong><br>
+        Multi-class classifier predicting attendance levels (Low/Medium/High/Sellout).
         <br><br>
-        <strong>3. Sentiment Analysis (NLP)</strong><br>
-        Text classification of 215 Reddit posts into Positive/Negative/Neutral using keyword-based NLP.
-        <br><br>
-        <strong>4. Interactive Predictor</strong><br>
-        Real-time predictions based on user inputs - demonstrating model deployment.
+        <strong>3. Sentiment Analysis</strong><br>
+        NLP-based classification of 215 Reddit posts into Positive/Negative/Neutral.
         </div>
         """, unsafe_allow_html=True)
-        
-        st.markdown("### 🛠️ Skills Demonstrated")
-        st.markdown("""
-        | Skill | Application |
-        |-------|-------------|
-        | **Python/ML** | scikit-learn, Random Forest, Gradient Boosting |
-        | **Data Collection** | API integration (NBA, SeatGeek, Reddit) |
-        | **Visualization** | Plotly, Streamlit dashboards |
-        | **NLP** | Sentiment classification |
-        | **Business Analytics** | ROI, pricing optimization, segmentation |
-        | **MLOps** | Model comparison, cross-validation, metrics |
-        """)
     
     with col2:
         st.markdown("### 🎯 Key Findings")
         st.markdown("""
         <div class='insight-box'>
-        <strong>Pricing Gap:</strong> Knicks charge 6.4x more than Nets for identical opponents. 
-        Pistons game: $21 (Nets) vs $258 (Knicks) = 1,106% difference!
+        <strong>Pricing Gap:</strong> Knicks charge 6.4x more than Nets for identical opponents
         </div>
         """, unsafe_allow_html=True)
         
         st.markdown("""
         <div class='insight-box'>
-        <strong>Attendance Paradox:</strong> Nets fill 98% capacity while ranked #21 with only 14 home wins.
-        For a rebuilding team, this is actually impressive!
+        <strong>Attendance Paradox:</strong> Nets fill 98% capacity while ranked #21 - impressive for rebuilding!
         </div>
         """, unsafe_allow_html=True)
         
         st.markdown("""
         <div class='warning-box'>
-        <strong>Revenue Opportunity:</strong> $12.1M potential by capturing 10% of Knicks pricing gap.
-        <br>Calculation: $17.40/ticket × 17,000 seats × 41 home games
+        <strong>Revenue Opportunity:</strong> $12.1M potential by capturing 10% of Knicks pricing gap
         </div>
         """, unsafe_allow_html=True)
-        
-        st.markdown("""
-        <div class='model-box'>
-        <strong>ML Insight:</strong> Opponent Tier explains ~70% of price variation.
-        62% of games predicted LOW attendance - need promotional strategies.
-        </div>
-        """, unsafe_allow_html=True)
-        
-        st.markdown("### 📊 Data Sources (All Real)")
-        st.markdown("""
-        | Source | Records | Type |
-        |--------|---------|------|
-        | NBA API | 1,400+ | ✅ Real |
-        | SeatGeek/RapidAPI | 35 | ✅ Real |
-        | Reddit API | 215 | ✅ Real |
-        | Weather API | 481 | ✅ Real |
-        | Research | 1,100+ | Curated |
-        """)
 
 # ============================================
 # PAGE 2: ML PRICE PREDICTION
@@ -941,19 +897,9 @@ elif page == "💡 Recommendations":
 # ============================================
 st.markdown("---")
 st.markdown("""
-<div style='text-align: center; padding: 20px;'>
-    <h4>👤 Created by Gerardo Gandara</h4>
-    <p>Senior Data Scientist Candidate | BSE Global</p>
-    <p>
-        📧 <a href="mailto:gerardo.gandara@gmail.com">gerardo.gandara@gmail.com</a> | 
-        💼 <a href="https://www.linkedin.com/in/gerardo-gandara/" target="_blank">LinkedIn</a> |
-        🐙 <a href="https://github.com/ggandara13" target="_blank">GitHub</a>
-    </p>
-    <hr style='margin: 15px 50px;'>
-    <p style='color: gray; font-size: 0.9em;'>
-        🏀 BSE Global Analytics | Data Science Prototype<br>
-        Models: Random Forest, Gradient Boosting, Logistic Regression<br>
-        Data: NBA API, SeatGeek, Reddit, Weather API | December 2025
-    </p>
+<div style='text-align: center; color: gray;'>
+    🏀 BSE Global Analytics | Data Science Prototype<br>
+    Models: Random Forest, Gradient Boosting, Logistic Regression<br>
+    Data: NBA API, SeatGeek, Reddit, Weather API | December 2025
 </div>
 """, unsafe_allow_html=True)
