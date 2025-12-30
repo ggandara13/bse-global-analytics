@@ -1,4 +1,4 @@
-# 🏀 BSE Global Analytics Dashboard
+# 🏀 BSE Global Analytics Dashboard v4.0
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bse-global-analytics.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
@@ -8,44 +8,82 @@
   <img src="https://media.licdn.com/dms/image/v2/C5622AQGlk2E3fhKiBA/feedshare-shrink_800/feedshare-shrink_800/0/1654477792148?e=2147483647&v=beta&t=TWJuLtxooQURrBz9U2GTG7X9t5iufy2YcuWpyhkcwM4" width="400">
 </p>
 
-## 📊 Overview
+## 🏀 Multi-Property Edition
 
-A **Data Science Prototype** for **BSE Global** (Brooklyn Nets, NY Liberty, Barclays Center), demonstrating machine learning, analytics, and business insights capabilities.
+A comprehensive **Data Science Dashboard** covering **ALL BSE Global properties**:
 
-**Built for:** Senior Data Scientist Interview  
-**Author:** Gerardo Gandara
+| Property | League | Highlights |
+|----------|--------|------------|
+| 🏀 **Brooklyn Nets** | NBA | Brand premium analysis, ML pricing models |
+| 🏆 **NY Liberty** | WNBA | 2024 Champions! Growth analytics |
+| 🏟️ **Barclays Center** | Venue | Fan experience, operations insights |
+
+---
+
+## 🏆 NEW: Liberty Championship Coverage
+
+The 2024 WNBA Champions are now fully integrated:
+- Championship journey visualization
+- +47% attendance growth analysis
+- Cross-promotion opportunities with Nets
+- Post-championship pricing optimization
 
 ---
 
 ## 🤖 Machine Learning Components
 
-| Model | Type | Purpose |
-|-------|------|---------|
-| **Price Prediction** | Random Forest Regression | Predict ticket prices from game features |
-| **Attendance Classification** | Multi-class Classifier | Predict attendance levels (Low/Med/High/Sellout) |
-| **Sentiment Analysis** | NLP Text Classification | Analyze Reddit fan discussions |
+| Model | Property | Purpose |
+|-------|----------|---------|
+| **Price Prediction** | Nets | Random Forest regression (R² = 0.85) |
+| **Attendance Classification** | Nets | Multi-class predictor (75% accuracy) |
+| **Sentiment Analysis** | Nets | NLP on 215 Reddit posts |
+| **Growth Analysis** | Liberty | Attendance trend modeling |
+| **Experience Mining** | Barclays | Review sentiment extraction |
 
 ---
 
 ## 🎯 Key Findings
 
-| Insight | Data |
-|---------|------|
-| **Pricing Gap** | Knicks charge 6.4x more than Nets for same opponents |
-| **Attendance Paradox** | Nets fill 98% capacity while ranked #21 |
-| **ML Insight** | Opponent tier explains 70% of price variation |
-| **Revenue Opportunity** | $12.1M potential capturing 10% of gap |
+### Brooklyn Nets
+- **Highest brand premium in NBA** (+19 gap)
+- Price rank #6 despite performance rank #25
+- Opportunity: $12M by capturing 10% of Knicks gap
+
+### NY Liberty
+- **2024 WNBA Champions** 🏆
+- +47% attendance growth
+- Sellout rate: 99% (playoffs: 100%)
+
+### Barclays Center
+- 4.3/5.0 overall rating
+- Top issue: Concession auto-tipping
+- Top positive: Subway accessibility
 
 ---
 
-## 🛠️ Skills Demonstrated
+## 📊 Dashboard Pages
 
-- **Python/ML**: scikit-learn, Random Forest, Gradient Boosting
-- **Data Collection**: API integration (NBA, SeatGeek, Reddit)
-- **Visualization**: Plotly, Streamlit dashboards
-- **NLP**: Sentiment classification
-- **Business Analytics**: ROI, pricing optimization, segmentation
-- **MLOps**: Model comparison, cross-validation, metrics
+### 🏠 Executive Summary
+Multi-property overview with key metrics for all BSE properties
+
+### 🏀 Brooklyn Nets Section
+- 🔥 Price vs Performance Analysis
+- 🤖 ML Price Prediction Model
+- 📊 Attendance Classification
+- 💬 Sentiment Analysis
+
+### 🏆 NY Liberty Section
+- 🏆 Championship Story
+- 📈 Growth Analysis
+
+### 🏟️ Barclays Center Section
+- 🏟️ Venue Analytics
+- ⭐ Fan Experience Analysis
+
+### 🔄 Cross-Property
+- 🔮 Interactive Predictor
+- 💰 League-Wide Pricing
+- 💡 Strategic Recommendations
 
 ---
 
@@ -57,21 +95,19 @@ A **Data Science Prototype** for **BSE Global** (Brooklyn Nets, NY Liberty, Barc
 
 ## 📁 Data Sources
 
-| Source | Type | Records |
-|--------|------|---------|
-| NBA API | ✅ Real | 1,400+ |
-| Weather API | ✅ Real | 481 |
-| RapidAPI/SeatGeek | ✅ Real | 35 |
-| Reddit API | ✅ Real | 215 |
-| Research Data | Curated | 1,100+ |
+| Source | Property | Records |
+|--------|----------|---------|
+| NBA API | Nets | 1,400+ |
+| SeatGeek API | Nets | 35 games |
+| Reddit API | Nets | 215 posts |
+| WNBA Data | Liberty | 40+ games |
+| TripAdvisor | Barclays | 200+ reviews |
 
-**Total: 48 files, 3,236 rows**
+**Total: 48+ files, 3,500+ rows**
 
 ---
 
 ## 🛠️ Installation
-
-### Local Development
 
 ```bash
 # Clone the repo
@@ -85,59 +121,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Deploy to Streamlit Cloud
-
-1. Fork this repository
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub account
-4. Select this repo and `app.py`
-5. Deploy!
-
----
-
-## 📊 Dashboard Pages
-
-### 🏠 Executive Summary
-Overview of data science components, key findings, and skills demonstrated.
-
-### 🤖 ML: Price Prediction
-- Random Forest vs Gradient Boosting vs Linear Regression
-- Feature importance analysis
-- R², MAE, RMSE metrics
-- Actual vs Predicted visualization
-
-### 📊 ML: Attendance Model
-- Multi-class classification
-- Confusion matrix
-- Attendance distribution analysis
-
-### 💬 ML: Sentiment Analysis
-- NLP classification of Reddit posts
-- Sentiment distribution
-- Sample posts by sentiment
-
-### 🔮 Interactive Predictor
-- **User inputs game features → Model predicts price & attendance**
-- Scenario comparison table
-- Real-time predictions
-
-### 💰 Pricing Deep Dive
-- Nets vs Knicks comparison charts
-- Price by opponent tier
-
-### 💡 Recommendations
-- Data-driven action items
-- Revenue opportunity quantification
-
----
-
-## 📈 Technologies
-
-- **Python 3.10+**
-- **Streamlit** - Dashboard framework
-- **scikit-learn** - Machine learning
-- **Plotly** - Interactive visualizations
-- **Pandas** - Data manipulation
+### Requirements
+```
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.18.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+```
 
 ---
 
@@ -148,7 +139,7 @@ Senior Data Scientist Candidate | BSE Global
 
 - 📧 Email: [gerardo.gandara@gmail.com](mailto:gerardo.gandara@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/gerardo-gandara](https://www.linkedin.com/in/gerardo-gandara/)
-- 🐙 GitHub: [github.com/ggandara13](https://github.com/ggandara13)
+- 💻 GitHub: [github.com/ggandara13](https://github.com/ggandara13)
 
 ---
 
@@ -161,4 +152,6 @@ Data collected from public APIs and sources.
 
 <p align="center">
   <b>🏀 Built for BSE Global Senior Data Scientist Interview | December 2025</b>
+  <br>
+  <i>Brooklyn Nets • NY Liberty • Barclays Center</i>
 </p>

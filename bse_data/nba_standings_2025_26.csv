@@ -1,0 +1,31 @@
+team,conf_rank,wins,losses,win_pct,conference,league_rank
+Oklahoma City Thunder,1,27,5,0.844,West,1
+Detroit Pistons,1,24,8,0.75,East,2
+San Antonio Spurs,2,23,8,0.742,West,3
+New York Knicks,2,22,9,0.71,East,4
+Denver Nuggets,3,22,9,0.71,West,5
+Los Angeles Lakers,4,20,10,0.667,West,6
+Houston Rockets,5,19,10,0.655,West,7
+Minnesota Timberwolves,6,20,12,0.625,West,8
+Boston Celtics,3,19,12,0.613,East,9
+Phoenix Suns,7,18,13,0.581,West,10
+Toronto Raptors,4,19,14,0.576,East,11
+Orlando Magic,5,18,14,0.563,East,12
+Philadelphia 76ers,6,16,14,0.533,East,13
+Miami Heat,7,17,15,0.531,East,14
+Cleveland Cavaliers,8,17,16,0.515,East,15
+Golden State Warriors,8,16,16,0.5,West,16
+Chicago Bulls,9,15,16,0.484,East,17
+Memphis Grizzlies,9,15,17,0.469,West,18
+Atlanta Hawks,10,15,18,0.455,East,19
+Milwaukee Bucks,11,13,19,0.406,East,20
+Portland Trail Blazers,10,13,19,0.406,West,21
+Utah Jazz,11,12,19,0.387,West,22
+Dallas Mavericks,12,12,21,0.364,West,23
+Charlotte Hornets,12,11,20,0.355,East,24
+Brooklyn Nets,13,10,19,0.345,East,25
+Los Angeles Clippers,13,10,21,0.323,West,26
+Sacramento Kings,14,8,24,0.25,West,27
+New Orleans Pelicans,15,8,25,0.242,West,28
+Washington Wizards,14,7,23,0.233,East,29
+Indiana Pacers,15,6,26,0.188,East,30

@@ -1,0 +1,7 @@
+category,severity,mention_count,recommended_action,priority_score,quick_win,action
+Food Quality & Pricing,Critical,14,Implement food quality audits and staff training for proper food preparation,10,False,Implement food quality audits and staff training for proper food preparation
+Staff Behavior/Policies,High,11,"Standardize policies, improve staff training, and review safety protocols for reasonableness",8,False,"Standardize policies, improve staff training, and review safety protocols for reasonableness"
+Seating Comfort/Space,High,9,Consider seat reconfiguration in future renovations and provide better accessibility options,8,False,Consider seat reconfiguration in future renovations and provide better accessibility options
+Sound Quality/Acoustics,Low,6,Install acoustic improvements in problematic sections and review sound engineering,3,True,Install acoustic improvements in problematic sections and review sound engineering
+Ticketing/Entry Issues,Low,5,Simplify ticket transfer process and train staff on troubleshooting digital ticket issues,3,True,Simplify ticket transfer process and train staff on troubleshooting digital ticket issues
+Accessibility/Transportation,Low,1,Continue promoting public transit options and maintain current accessibility features,3,True,Continue promoting public transit options and maintain current accessibility features

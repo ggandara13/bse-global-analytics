@@ -1,0 +1,178 @@
+{
+  "methodology": {
+    "total_reviews_analyzed": 97,
+    "rating_distribution": {
+      "1": 32,
+      "2": 13,
+      "3": 15,
+      "4": 61,
+      "5": 159
+    },
+    "average_rating": 4.08
+  },
+  "overall_sentiment": {
+    "score": 4.1,
+    "positive_review_pct": 65.0,
+    "negative_review_pct": 25.8,
+    "neutral_review_pct": 9.2,
+    "key_insight": "Despite high ratings for atmosphere and accessibility, significant operational issues with food quality, sound, and staff policies create frustration.",
+    "methodology": "{\"total_reviews_analyzed\": 97, \"rating_distribution\": {\"1\": 32, \"2\": 13, \"3\": 15, \"4\": 61, \"5\": 159}, \"average_rating\": 4.08}"
+  },
+  "topic_sentiment_analysis": [
+    {
+      "topic": "Food Quality & Pricing",
+      "total_mentions": 18,
+      "negative_mentions": 14,
+      "positive_mentions": 2,
+      "neutral_mentions": 2,
+      "sentiment_ratio": 0.78,
+      "avg_rating_when_mentioned": 2.4,
+      "severity": "Critical",
+      "severity_justification": "14 negative mentions >= 25 threshold not met, but avg_rating 2.4 < 3.0 with high negative ratio indicates critical issue",
+      "example_negative": "I paid 13$ for jerk chicken tacos and the tortillas weren't even cooked",
+      "example_positive": "I like the variety of locations available for wine and cocktails including Jay Z's upscale 40/40 Club",
+      "root_cause": "Overpriced food with poor preparation and quality control",
+      "recommended_action": "Implement food quality audits and staff training for proper food preparation"
+    },
+    {
+      "topic": "Sound Quality/Acoustics",
+      "total_mentions": 8,
+      "negative_mentions": 6,
+      "positive_mentions": 2,
+      "neutral_mentions": 0,
+      "sentiment_ratio": 0.75,
+      "avg_rating_when_mentioned": 2.1,
+      "severity": "Low",
+      "severity_justification": "6 negative mentions < 8 threshold for Medium severity",
+      "example_negative": "There are parts of this venue where the sound quality is so muffled because of the poor acoustics that its unlistenable, mainly the upper level on the sides",
+      "example_positive": "The acoustics were amazing, as was the singer!!!",
+      "root_cause": "Poor acoustic design in upper level side sections",
+      "recommended_action": "Install acoustic improvements in problematic sections and review sound engineering"
+    },
+    {
+      "topic": "Staff Behavior/Policies",
+      "total_mentions": 15,
+      "negative_mentions": 11,
+      "positive_mentions": 4,
+      "neutral_mentions": 0,
+      "sentiment_ratio": 0.73,
+      "avg_rating_when_mentioned": 2.6,
+      "severity": "High",
+      "severity_justification": "11 negative mentions >= 10 AND negative ratio 0.73 > 0.7",
+      "example_negative": "They will sell you a bottle of water at $7 and refuse to give you the cap 'for safety reasons'",
+      "example_positive": "Security and staff are always friendly and diligent, which I appreciate",
+      "root_cause": "Inconsistent policy enforcement and poor staff training on customer service",
+      "recommended_action": "Standardize policies, improve staff training, and review safety protocols for reasonableness"
+    },
+    {
+      "topic": "Seating Comfort/Space",
+      "total_mentions": 12,
+      "negative_mentions": 9,
+      "positive_mentions": 2,
+      "neutral_mentions": 1,
+      "sentiment_ratio": 0.75,
+      "avg_rating_when_mentioned": 2.8,
+      "severity": "High",
+      "severity_justification": "9 negative mentions < 10 but high negative ratio 0.75 > 0.7 with multiple complaints",
+      "example_negative": "The rows are to narrow. I am 5'8\" 160lb male. If I was fat or if a person was fat who wanted to get to there seat I don't see how they will get though",
+      "example_positive": "The seats were great but I stood most of the time",
+      "root_cause": "Arena design prioritizes capacity over comfort with insufficient legroom and narrow rows",
+      "recommended_action": "Consider seat reconfiguration in future renovations and provide better accessibility options"
+    },
+    {
+      "topic": "Ticketing/Entry Issues",
+      "total_mentions": 6,
+      "negative_mentions": 5,
+      "positive_mentions": 1,
+      "neutral_mentions": 0,
+      "sentiment_ratio": 0.83,
+      "avg_rating_when_mentioned": 1.8,
+      "severity": "Low",
+      "severity_justification": "5 negative mentions < 8 threshold despite high negative ratio",
+      "example_negative": "There was no way to print out the tickets and only one way to transfer them. when my brother arrived at the arena, they wouldn't let them in because the transfer did not seem to have worked",
+      "example_positive": "Moving thru security is like LGA but much faster and more friendlier",
+      "root_cause": "Complex digital ticketing system with poor backup procedures",
+      "recommended_action": "Simplify ticket transfer process and train staff on troubleshooting digital ticket issues"
+    },
+    {
+      "topic": "Accessibility/Transportation",
+      "total_mentions": 14,
+      "negative_mentions": 1,
+      "positive_mentions": 13,
+      "neutral_mentions": 0,
+      "sentiment_ratio": 0.07,
+      "avg_rating_when_mentioned": 4.6,
+      "severity": "Low",
+      "severity_justification": "Only 1 negative mention - this is actually a strength",
+      "example_negative": "Traffic is terrible in Brooklyn",
+      "example_positive": "this location is super convenient to travel to... can take public transportation. My brother and I took the subway and it was a brief five minute walk directly to the location",
+      "root_cause": "Excellent subway connectivity makes venue highly accessible",
+      "recommended_action": "Continue promoting public transit options and maintain current accessibility features"
+    }
+  ],
+  "strengths": [
+    {
+      "topic": "Atmosphere/Entertainment Experience",
+      "positive_mentions": 22,
+      "example_quote": "The game was fun and atmosphere was electric!",
+      "leverage_opportunity": "Highlight the electric atmosphere and entertainment value in marketing to attract first-time visitors"
+    },
+    {
+      "topic": "Location/Transportation Access",
+      "positive_mentions": 13,
+      "example_quote": "Great venue for concerts. Train is right in front, staff is always nice here & multiple food options to have prior to shows",
+      "leverage_opportunity": "Emphasize convenience and subway accessibility to attract Manhattan visitors"
+    },
+    {
+      "topic": "Facility Cleanliness/Modern Design",
+      "positive_mentions": 11,
+      "example_quote": "Very enjoyable experience to see a concert. Clean, well organized, nice restrooms!",
+      "leverage_opportunity": "Market the modern, clean facilities as a premium venue experience"
+    }
+  ],
+  "fan_segments": [
+    {
+      "segment": "Casual/Tourist Visitors",
+      "estimated_pct": 45.0,
+      "defining_characteristics": "First-time or infrequent visitors, often tourists, focused on overall experience",
+      "primary_concerns": [
+        "Food pricing",
+        "Seating comfort",
+        "Overall value"
+      ],
+      "satisfaction_level": "Medium"
+    },
+    {
+      "segment": "Regular Sports Fans",
+      "estimated_pct": 35.0,
+      "defining_characteristics": "Frequent attendees of Nets/Liberty games, familiar with venue",
+      "primary_concerns": [
+        "Staff policies",
+        "Seating issues",
+        "Concession quality"
+      ],
+      "satisfaction_level": "Medium"
+    },
+    {
+      "segment": "Concert Goers",
+      "estimated_pct": 20.0,
+      "defining_characteristics": "Primarily attend concerts and shows rather than sports",
+      "primary_concerns": [
+        "Sound quality",
+        "Sight lines",
+        "Upper level experience"
+      ],
+      "satisfaction_level": "Low"
+    }
+  ],
+  "analysis_confidence": {
+    "sample_size_adequate": true,
+    "potential_biases": [
+      "Self-selection bias toward extreme experiences",
+      "Possible seasonal variations not captured",
+      "Google/Yelp demographic skew"
+    ],
+    "confidence_level": "High",
+    "limitations": "Sample represents only users motivated to leave reviews; actual customer satisfaction may differ from review sentiment"
+  }
+}

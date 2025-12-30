@@ -1,0 +1,2 @@
+overall_sentiment_score,positive_review_pct,negative_review_pct,neutral_review_pct,key_finding,methodology
+4.1,65.0,25.8,9.2,"Despite high ratings for atmosphere and accessibility, significant operational issues with food quality, sound, and staff policies create frustration.","{""total_reviews_analyzed"": 97, ""rating_distribution"": {""1"": 32, ""2"": 13, ""3"": 15, ""4"": 61, ""5"": 159}, ""average_rating"": 4.08}"
